@@ -7,48 +7,15 @@ const Story = () => {
         const testimonials = [
     {
       id: 1,
-      text: "We the viewers have a quick and easy way to discover information about the company we are entering. IT is also simple to keep track of all the qualification",
-      name: "Michael Anderson",
-      role: "Graphic Designer",
-      company: "Creative Studio Inc.",
+      text: "The platform has transformed how we approach learning. The courses are well-structured and the instructors are knowledgeable. Highly recommended!",
+      name: "Ajay Chaudhary",
+      role: "Founder / Design Lead",
+      company: "The Web Sewa",
       image:
-        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=80&h=80&fit=crop&crop=face",
+        "https://scontent.fktm7-1.fna.fbcdn.net/v/t39.30808-6/502583427_3617288988567695_6734825287241536611_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=6ee11a&_nc_ohc=gt8vrODQFUYQ7kNvwFR-Z8o&_nc_oc=AdlXm5HO0RyDUbvhSX-Ea1Xo4Qukefy643BhARXq1A-Ita2NaiYSuPNNGwKOjuGrB18&_nc_zt=23&_nc_ht=scontent.fktm7-1.fna&_nc_gid=N0zaCMo23SomZUSFbvMY_A&oh=00_AfRK0p2lKytY9nAprOikLAu6ReJ1MJf88YZeDqj1NBCi_Q&oe=688398C6",
       rating: 5,
       course: "Graphic Design Diploma",
-    },
-    {
-      id: 2,
-      text: "The platform has transformed how we approach learning. The courses are well-structured and the instructors are knowledgeable. Highly recommended!",
-      name: "Sarah Johnson",
-      role: "Software Engineer",
-      company: "Tech Solutions Ltd.",
-      image:
-        "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=80&h=80&fit=crop&crop=face",
-      rating: 5,
-      course: "Programming Bootcamp",
-    },
-    {
-      id: 3,
-      text: "Exceptional quality content and great community support. This platform has helped me advance my career significantly in just a few months.",
-      name: "David Chen",
-      role: "Product Manager",
-      company: "Innovation Corp.",
-      image:
-        "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?w=80&h=80&fit=crop&crop=face",
-      rating: 5,
-      course: "Business Management",
-    },
-    {
-      id: 4,
-      text: "Outstanding learning experience with practical projects. The AutoCAD training was comprehensive and helped me land my dream job in architecture.",
-      name: "Emma Martinez",
-      role: "Architect",
-      company: "Design Architects",
-      image:
-        "https://images.unsplash.com/photo-1438761681033-6461ffad8d80?w=80&h=80&fit=crop&crop=face",
-      rating: 5,
-      course: "AutoCAD Training",
-    },
+    }
   ];
 
   const [currentTestimonial, setCurrentTestimonial] = useState(0);
