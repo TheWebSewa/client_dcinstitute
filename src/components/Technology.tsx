@@ -1,4 +1,4 @@
-import { ArrowRight, Award, Calculator, CheckCircle, Clock, Code, Monitor, Palette, Ruler } from "lucide-react"
+import { Award, Calculator, CheckCircle, Clock, Code, Monitor, Palette, Ruler } from "lucide-react"
 import { useState } from "react";
 
 const Technology = () => {
