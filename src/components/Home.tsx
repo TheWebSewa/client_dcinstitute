@@ -28,10 +28,11 @@ const Home = () => {
 
           {/* Action buttons */}
           <div className="flex flex-col sm:flex-row items-center justify-center gap-8 mb-20">
+            <a href="#contact" className="cursor-pointer">
             <Button className="bg-gradient-to-r from-red-400 to-red-500 hover:from-red-500 hover:to-red-600 text-slate-900 font-semibold px-10 py-5 rounded-2xl text-lg shadow-xl hover:shadow-red-400/25 transition-all duration-300 hover:scale-105 group">
               Get Started
               <ArrowRight className="w-5 h-5 ml-2 group-hover:translate-x-1 transition-transform duration-300" />
-            </Button>
+            </Button></a>
 
             
           </div>

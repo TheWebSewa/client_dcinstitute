@@ -50,14 +50,14 @@ const About = () => {
             </div>
 
             {/* CTA Button */}
-            <div className="pt-2">
+            <div className="pt-2"> <a href="#contact" className='cursor-pointer'>
               <button className="group relative bg-gradient-to-r from-red-500 to-red-600 hover:from-red-600 hover:to-red-700 text-white font-semibold px-10 py-5 rounded-2xl transition-all duration-300 flex items-center space-x-3 hover:scale-105 shadow-lg hover:shadow-red-500/25">
-                <span className="text-lg">Start Learning Today</span>
+              <span className="text-lg">Start Learning Today</span>
                 <ArrowRight className="w-5 h-5 group-hover:translate-x-1 transition-transform duration-300" />
                 
                 {/* Button Glow */}
                 <div className="absolute inset-0 bg-gradient-to-r from-red-500 to-red-600 rounded-2xl blur opacity-0 group-hover:opacity-20 transition-opacity duration-300 -z-10"></div>
-              </button>
+              </button></a> 
             </div>
           </div>
 

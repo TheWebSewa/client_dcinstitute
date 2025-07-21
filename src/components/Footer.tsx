@@ -99,7 +99,7 @@ const Footer = () => {
                   onClick={item.action}
                 >
                   <div className="flex items-start space-x-4">
-                    <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-blue-500 to-purple-600 rounded-lg flex items-center justify-center text-white group-hover:scale-110 transition-transform duration-300">
+                    <div className="flex-shrink-0 w-12 h-12 bg-gradient-to-br from-blue-500 to-red-600 rounded-lg flex items-center justify-center text-white group-hover:scale-110 transition-transform duration-300">
                       {item.icon}
                     </div>
                     <div className="flex-1">
@@ -157,7 +157,7 @@ const Footer = () => {
             {/* Company Info */}
             <div className="lg:col-span-2 space-y-6">
               <div className="flex items-center space-x-4">
-                <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-purple-600 rounded-xl flex items-center justify-center">
+                <div className="w-16 h-16 bg-white rounded-xl flex items-center justify-center">
                   <img src="/logo.png" alt="D.C. Institute" className="w-12 h-12 object-contain" />
                 </div>
                 <div>

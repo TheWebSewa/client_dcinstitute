@@ -123,7 +123,7 @@ function App() {
         <div className="flex items-center justify-between px-8 py-6 max-w-7xl mx-auto">
           <div className="flex items-center space-x-3 group cursor-pointer">
             <div className="flex items-center space-x-4">
-              <div className="w-16 h-16 bg-gradient-to-br from-blue-500 to-purple-600 rounded-xl flex items-center justify-center">
+              <div className="w-16 h-16 bg-white rounded-xl flex items-center justify-center">
                 <img
                   src="/logo.png"
                   alt="D.C. Institute"
@@ -132,7 +132,7 @@ function App() {
               </div>
               <div>
                 <h3 className="text-2xl font-bold text-white">
-                  D.C. Institute
+                  D.C. INSTITUTE
                 </h3>
                 <p className="text-slate-400 text-sm">Lahan</p>
               </div>
@@ -153,9 +153,7 @@ function App() {
                 >
                   {item.name}
                 </a>
-                <span className="text-muted-foreground group-hover:text-primary transition-smooth">
-                  +
-                </span>
+               
               </div>
             ))}
           
